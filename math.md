@@ -1,3 +1,5 @@
+Math Method and Description
+
 abs()
 Returns the absolute value of a number.
 
