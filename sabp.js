@@ -24,7 +24,7 @@ const sortArrayByParity = (A)  => {
             leftIndex += 1;      
         }
          while(A[rightIndex] % 2 !== 0 && leftIndex < rightIndex) {
-            // increase left index by 1
+            // decrease right index by 1
             rightIndex -= 1;      
     }
         if (leftIndex < rightIndex) {
